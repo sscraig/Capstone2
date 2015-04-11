@@ -8,13 +8,14 @@
   <sprites name="sprites">
     <sprite>sprites\sPlayer</sprite>
     <sprite>sprites\sWall</sprite>
-    <sprite>sprites\sEnemy</sprite>
+    <sprite>sprites\sEnemy1</sprite>
     <sprite>sprites\sProjectile</sprite>
-    <sprite>sprites\sprite4</sprite>
     <sprite>sprites\sArrow</sprite>
+    <sprite>sprites\sEnemy2</sprite>
   </sprites>
   <backgrounds name="background">
-    <background>background\background0</background>
+    <background>background\bGameOver</background>
+    <background>background\background1</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -27,14 +28,15 @@
   <objects name="objects">
     <object>objects\oPlayer</object>
     <object>objects\oWall</object>
-    <object>objects\oEnemy</object>
+    <object>objects\oEnemy1</object>
+    <object>objects\oEnemy2</object>
     <object>objects\oEnProjectile</object>
     <object>objects\oPlProjectile</object>
     <object>objects\oMenu</object>
     <object>objects\oLevelSelect</object>
     <object>objects\oRestart</object>
-    <object>objects\oGroupEnemies</object>
-    <object>objects\oSwitch</object>
+    <object>objects\oEnemyGroup</object>
+    <object>objects\oLevelControler</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rMenu</room>

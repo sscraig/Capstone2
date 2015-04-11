@@ -27,8 +27,8 @@
             <kind>1</kind>
             <string>globalvar enemy1;
 globalvar enemy2;
-global.enemy1 = instance_create(672,704,oEnemy);
-global.enemy2 = instance_create(96,512,oEnemy);
+global.enemy1 = instance_create(96,512,oEnemy1);
+global.enemy2 = instance_create(672,704,oEnemy2);
 </string>
           </argument>
         </arguments>

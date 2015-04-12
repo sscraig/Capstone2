@@ -31,6 +31,7 @@
 grav = 0.2;
 hsp = 0;
 vsp = 0;
+hp = 3;
 
 walkSpeed = 2;
 isFiring = false;
@@ -104,6 +105,11 @@ if (distance_to_object(oPlayer) &lt; 200) //&amp;&amp; global.fireTimer == 0)
 }*/
 
 oEnemy1.image_index = 0;
+
+if(hp == 0) instance_destroy();
+
+if (vsp &lt; 10)
+ vsp += grav;
 </string>
           </argument>
         </arguments>

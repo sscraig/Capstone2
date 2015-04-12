@@ -28,9 +28,10 @@
             <string>///variables
 //dir = -1;
 //mpvespeed = 3;
-grav = 0.2;
+grav = 0.4;
 hsp = 0;
 vsp = 0;
+hp = 3;
 
 walkSpeed = 2;
 isFiring = false;
@@ -63,7 +64,7 @@ global.fireTimer = fireRate;
           </argument>
           <argument>
             <kind>0</kind>
-            <string>0</string>
+            <string>1</string>
           </argument>
           <argument>
             <kind>4</kind>
@@ -148,6 +149,8 @@ if (distance_to_object(oPlayer) &lt; 200) //&amp;&amp; global.fireTimer == 0)
 }*/
 
 oEnemy2.image_index = 0;
+
+if(hp == 0) instance_destroy();
 </string>
           </argument>
         </arguments>

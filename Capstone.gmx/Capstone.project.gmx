@@ -6,7 +6,8 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprite>sprites\sPlayer</sprite>
+    <sprite>sprites\sPlayer1</sprite>
+    <sprite>sprites\sPlayer2</sprite>
     <sprite>sprites\sWall</sprite>
     <sprite>sprites\sEnemy1</sprite>
     <sprite>sprites\sProjectile</sprite>
@@ -26,7 +27,8 @@
     <font>fonts\font0</font>
   </fonts>
   <objects name="objects">
-    <object>objects\oPlayer</object>
+    <object>objects\oPlayer1</object>
+    <object>objects\oPlayer2</object>
     <object>objects\oWall</object>
     <object>objects\oEnemy1</object>
     <object>objects\oEnemy2</object>
@@ -37,6 +39,8 @@
     <object>objects\oRestart</object>
     <object>objects\oEnemyGroup</object>
     <object>objects\oLevelControler</object>
+    <object>objects\oEnemy1Gen</object>
+    <object>objects\oEnemy2Gen</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rMenu</room>

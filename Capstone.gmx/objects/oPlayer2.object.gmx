@@ -91,24 +91,24 @@ else
 // image_angle = which direction the sprite is facing (which sprite where using?)
 //get input
 //sprDir = 0;
-key_right = keyboard_check(ord('W'));
-key_left = -keyboard_check(ord('Q'));
-key_jump = keyboard_check(ord('I'));
+key_right = keyboard_check(ord('J'));
+key_left = -keyboard_check(ord('H'));
+key_jump = keyboard_check(ord('K'));
 
 
 //react to input
 
 if (prevImageIndex != sPlayer2.image_index)
 {
-    if(keyboard_check(ord('W'))) 
+    if(keyboard_check(ord('J'))) 
     { 
         sPlayer2.image_index = 0;
         prevImageIndex = 0; 
     }
-    else if(keyboard_check(ord('Q')))
+    else if(keyboard_check(ord('H')))
     {
-    prevImageIndex = 1;
-    sPlayer2.image_index = 1;
+    prevImageIndex = 3;
+    sPlayer2.image_index = 3;
     }
     else {
      sPlayer2.image_index = prevImageIndex;
@@ -123,7 +123,7 @@ hsp = move * movespeed;
 if (vsp &lt; 10)
  vsp += grav;
 if(place_meeting(x,y+1,oWall)){
- vsp = key_jump * -jumpspeed;
+ vsp = key_jump * -jumpspeed*2;
 }
 
 //horrizontal collision
@@ -197,7 +197,7 @@ y += vsp;
         </arguments>
       </action>
     </event>
-    <event eventtype="9" enumb="79">
+    <event eventtype="9" enumb="76">
       <action>
         <libid>1</libid>
         <id>603</id>

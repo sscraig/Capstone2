@@ -39,8 +39,8 @@
     <object>objects\oRestart</object>
     <object>objects\oEnemyGroup</object>
     <object>objects\oLevelControler</object>
-    <object>objects\oEnemy1Gen</object>
-    <object>objects\oEnemy2Gen</object>
+    <object>objects\oEnemySpawn1</object>
+    <object>objects\oEnemySpawn2</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rMenu</room>

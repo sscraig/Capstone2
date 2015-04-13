@@ -56,10 +56,8 @@ else {
             <kind>1</kind>
             <string>image_angle = direction;
 
-/*enemy = oEnemyGroup.
-if(){*/
-    hit = instance_place(x,y,oEnemy2);
-//}
+hit = instance_place(x,y,oEnemy1);
+hit = instance_place(x,y,oEnemy2);
     
 if(hit != noone) {
     hit.hp -= 1;
